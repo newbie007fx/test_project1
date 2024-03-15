@@ -1,0 +1,2 @@
+1. di golang error dihandle dengan cara mereturn error tersebut, kemudian di function caller melakukan pengecekan apakah error tersebut nil atau tidak, idealnya semua error harus dilakukan pengecekan, kemudian error dapat diwrite dilog atau direturn 
+2. interface pada go adalah sebuat kontrak yang berisi sekumpulan function kontrak. pada go interface tidak harus dimplementa secara tersurat pada struct/object. interface di digunakan untuk melakukan abstraksi.  
